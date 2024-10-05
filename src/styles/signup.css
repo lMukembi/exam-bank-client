@@ -1,0 +1,27 @@
+.signupwrapper {
+  width: 50%;
+  margin: auto;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem 0 0 0;
+}
+
+.signup input,
+button {
+  margin: 0 0 2rem 0;
+  padding: 1rem 5px;
+  border-radius: 10px;
+}
+
+.signup button {
+  border: none;
+  font-size: 15px;
+  background-color: #9d2e34;
+}
+
+.signup .signup link {
+  color: #9d2e34;
+}

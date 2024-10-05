@@ -1,0 +1,35 @@
+.loginwrapper {
+  width: 50%;
+  margin: auto;
+}
+
+.header {
+  background-color: #9d2e34;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem 0 0 0;
+}
+
+.login input,
+button {
+  margin: 0 0 2rem 0;
+  padding: 1rem 5px;
+  border-radius: 10px;
+}
+
+.login button {
+  border: none;
+  font-size: 15px;
+  background-color: #9d2e34;
+}
+
+.login .loginlink {
+  color: #9d2e34;
+}
