@@ -5,6 +5,7 @@ import { Login } from "./login";
 import { Signup } from "./signup";
 import { AdminLogin } from "./adminlogin";
 import { Admin } from "./admin";
+import { Addexam } from "./addexam";
 
 const Paths = () => {
   return (
@@ -15,6 +16,7 @@ const Paths = () => {
         <Route path="/signup" element={<Signup />} />
         <Route path="/admin/login" element={<AdminLogin />} />
         <Route path="/admin/:id" element={<Admin />} />
+        <Route path="/add-exam" element={<Addexam />} />
       </Routes>
     </Router>
   );

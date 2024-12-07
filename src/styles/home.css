@@ -15,30 +15,43 @@
   padding: 0 1rem;
 }
 
-.units {
+.home .units {
   margin-top: 1rem;
 }
 
-.unit {
+.home .unit {
   display: flex;
   font-size: large;
   margin: 3rem;
 }
 
-.unit .download {
+.home .unit .download {
   cursor: pointer;
   color: #9d2e34;
   margin-left: 5px;
 }
 
-.search {
+.home .search {
   display: flex;
   margin: 3rem;
   padding: 1rem 10rem 1rem 0.5rem;
   border-radius: 10px;
 }
 
-.loginlink {
+.home .headright {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.home .headright .logout {
+  margin-left: 20px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.home .loginlink,
+.home .addlink {
   color: white;
   text-decoration: none;
 }
